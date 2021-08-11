@@ -1,0 +1,11 @@
+.footer {
+  margin-top: 1.5rem;
+  background: #f5f5dc;
+}
+
+.footer-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid #333; */
+}

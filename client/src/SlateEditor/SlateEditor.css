@@ -1,0 +1,80 @@
+body {
+  background: #f1f1ef;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.base-div {
+  background: #fff;
+  width: 60vw;
+  min-height: 20vh;
+  height: auto;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 0.7rem;
+}
+.base-changelog-div {
+  background: #fff;
+  width: 40vw;
+  min-height: 20vh;
+  height: auto;
+  margin: auto;
+  margin-top: 5rem;
+  padding: 0.6rem;
+}
+
+.toolbar {
+  width: 100%;
+  /* display: flex; */
+  align-items: center;
+  border-bottom: 1px solid #333;
+}
+
+.save-button {
+  height: 2rem;
+  width: 2rem;
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+  color: #000;
+}
+
+.edit-button {
+  height: 2rem;
+  width: 2rem;
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+  color: #d3d3d3;
+}
+
+.edit-button > span {
+  font-size: 1.2rem;
+}
+
+.edit-button-active {
+  color: black;
+}
+
+.doc-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .doc-title {
+  font
+} */
+
+.hover:hover {
+  background-color: #42ff00;
+}
